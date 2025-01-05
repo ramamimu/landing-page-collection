@@ -1,6 +1,9 @@
 <script setup lang="ts">
-import Header from "@/components/nexcent/header/HeaderComponent.vue";
+import HeaderSection from "@/components/nexcent/header/HeaderSection.vue";
+import HeroSection from "@/components/nexcent/hero/HeroSection.vue";
 </script>
+
 <template>
-  <Header />
+  <HeaderSection />
+  <HeroSection />
 </template>

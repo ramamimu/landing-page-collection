@@ -6,7 +6,7 @@ interface Menu {
   url: string;
 }
 
-const menus = ref<Menu[]>([
+const menu = ref<Menu[]>([
   {
     text: "Home",
     url: "/",
@@ -35,13 +35,13 @@ const menus = ref<Menu[]>([
 </script>
 
 <template>
-  <div class="flex gap-5">
+  <div class="flex flex-col gap-10 xl:flex-row">
     <div
-      v-for="menu in menus"
-      :key="menu.text"
-      class="cursor-pointer hover:text-slate-500"
+      v-for="item in menu"
+      :key="item.text"
+      class="cursor-pointer px-3 py-2 text-2xl hover:bg-white xl:text-base"
     >
-      {{ menu.text }}
+      {{ item.text }}
     </div>
   </div>
 </template>
