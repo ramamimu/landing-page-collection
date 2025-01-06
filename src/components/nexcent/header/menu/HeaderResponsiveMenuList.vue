@@ -2,6 +2,7 @@
 import HeaderLogo from "../logo/HeaderLogo.vue";
 import HeaderMenuIcon from "../menu/HeaderMenuIcon.vue";
 import HeaderMenuList from "../menu/HeaderMenuList.vue";
+import HeaderAuth from "../menu/HeaderAuthentication.vue";
 
 defineProps({
   isMenuActive: Boolean,
@@ -10,7 +11,7 @@ defineProps({
 
 <template>
   <div
-    class="bg-nexcent-silver fixed h-screen w-screen overflow-auto xl:hidden"
+    class="fixed h-screen w-screen overflow-auto bg-nexcent-silver xl:hidden"
     v-if="isMenuActive"
   >
     <div
@@ -23,5 +24,6 @@ defineProps({
       />
     </div>
     <HeaderMenuList class="container mx-auto px-5 py-10" />
+    <HeaderAuth class="container mx-auto px-5 py-10" />
   </div>
 </template>
