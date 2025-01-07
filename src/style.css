@@ -20,6 +20,6 @@
 
 @layer base {
   h2 {
-    @apply text-4xl font-semibold leading-snug md:text-6xl;
+    @apply text-4xl font-semibold leading-snug md:text-5xl;
   }
 }
