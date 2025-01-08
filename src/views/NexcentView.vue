@@ -5,6 +5,7 @@ import ClientSection from "@/components/nexcent/clients/ClientSection.vue";
 import CommunitySection from "@/components/nexcent/community/CommunitySection.vue";
 import UnlockSection from "@/components/nexcent/unlock/UnlockSection.vue";
 import AchievementSection from "@/components/nexcent/achievements/AchievementSection.vue";
+import CalendarSection from "@/components/nexcent/calendar/CalendarSection.vue";
 </script>
 
 <template>
@@ -14,4 +15,5 @@ import AchievementSection from "@/components/nexcent/achievements/AchievementSec
   <CommunitySection />
   <UnlockSection />
   <AchievementSection />
+  <CalendarSection />
 </template>
