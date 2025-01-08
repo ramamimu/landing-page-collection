@@ -1,6 +1,6 @@
 <template>
   <section
-    class="container mx-auto grid grid-cols-1 items-center justify-items-center gap-10 px-5 py-10 font-inter md:grid-cols-2"
+    class="container mx-auto my-10 grid grid-cols-1 items-center justify-items-center gap-10 px-5 py-10 font-inter md:grid-cols-2"
   >
     <img
       src="/src/assets/nexcent/images/unlock-illustration.svg"
