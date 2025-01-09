@@ -16,6 +16,10 @@
   .nexcent-highlight-hero-text {
     @apply text-4xl font-semibold sm:text-7xl;
   }
+
+  .nexcent-image-text-section {
+    @apply container mx-auto my-10 grid grid-cols-1 items-center justify-items-center gap-2 px-5 py-10 font-inter md:grid-cols-2;
+  }
 }
 
 @layer base {

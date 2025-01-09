@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import ClientImages from "./ClientImages.vue";
+</script>
+
 <template>
   <section class="container mx-auto my-10 flex flex-col px-5 py-10">
     <div class="flex flex-col items-center gap-5 py-10 font-inter">
@@ -7,12 +11,7 @@
       </p>
     </div>
     <div class="my-5 flex flex-row flex-wrap justify-around gap-2">
-      <img
-        v-for="n in 6"
-        :key="n"
-        :src="`/src/assets/nexcent/images/client-logo-${n}.png`"
-        alt=""
-      />
+      <ClientImages />
     </div>
   </section>
 </template>
