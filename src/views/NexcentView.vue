@@ -9,6 +9,7 @@ import CalendarSection from "@/components/nexcent/calendar/CalendarSection.vue";
 import CustomerSection from "@/components/nexcent/customers/CustomerSection.vue";
 import CommunityUpdateSection from "@/components/nexcent/communityUpdate/CommunityUpdateSection.vue";
 import DemoSection from "@/components/nexcent/demo/DemoSection.vue";
+import FooterSection from "@/components/nexcent/footer/FooterSection.vue";
 </script>
 
 <template>
@@ -22,4 +23,5 @@ import DemoSection from "@/components/nexcent/demo/DemoSection.vue";
   <CustomerSection />
   <CommunityUpdateSection />
   <DemoSection />
+  <FooterSection />
 </template>
